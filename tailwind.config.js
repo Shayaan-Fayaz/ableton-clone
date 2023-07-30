@@ -68,8 +68,10 @@ module.exports = {
         '400': '400'
       },
       fontFamily: {
-        futura : ['futura-pt', 'Avenir', '-apple-system', 'BlinkMacSystemFont']
-      }
+        futura : ["FUTURAPT", "sans-serif"]
+      },
+      
+      
     },
   },
   plugins: [],
