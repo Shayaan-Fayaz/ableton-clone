@@ -542,6 +542,10 @@ video {
   position: relative;
 }
 
+.bottom-200px {
+  bottom: 200px;
+}
+
 .bottom-45 {
   bottom: 45vw;
 }
@@ -560,6 +564,10 @@ video {
 
 .bottom-sixty-five {
   bottom: 65vw;
+}
+
+.left-450px {
+  left: 450px;
 }
 
 .z-10 {
@@ -591,6 +599,14 @@ video {
 
 .mb-0\.7 {
   margin-bottom: 0.7em;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-1\.25 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-14 {
@@ -697,20 +713,16 @@ video {
   margin-top: 8.33333vw;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-1\.25 {
-  margin-bottom: 1.25rem;
-}
-
 .block {
   display: block;
 }
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-2 {
@@ -725,10 +737,6 @@ video {
   height: 357.89px;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
 .h-41 {
   height: 41.66667vw;
 }
@@ -741,20 +749,20 @@ video {
   height: 75vw;
 }
 
+.h-2\.5 {
+  height: 2.5rem;
+}
+
 .w-188 {
   width: 188px;
 }
 
-.w-25 {
-  width: 25vw;
+.w-20vw {
+  width: 20vw;
 }
 
 .w-33 {
   width: 33.33333vw;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .w-41 {
@@ -781,8 +789,20 @@ video {
   width: 100vw;
 }
 
+.w-2 {
+  width: 2px;
+}
+
+.w-2\.5 {
+  width: 2.5rem;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -811,10 +831,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .bg-blue-700 {
@@ -915,14 +931,6 @@ video {
   padding-bottom: 4.166667vw;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pt-1\.25 {
-  padding-top: 1.25rem;
-}
-
 .font-futura {
   font-family: FUTURAPT, sans-serif;
 }
@@ -943,12 +951,8 @@ video {
   font-size: 16px;
 }
 
-.text-abletonFound {
-  font-size: 20px;
-}
-
-.text-livePush {
-  font-size: 30px;
+.text-hundred {
+  font-size: 100px;
 }
 
 .font-400 {
@@ -967,18 +971,14 @@ video {
   line-height: 1.5;
 }
 
-.leading-1\.4 {
-  line-height: 1.4;
-}
-
-.text-blue-800 {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
-}
-
 .text-customBlue {
   --tw-text-opacity: 1;
   color: rgb(0 0 255 / var(--tw-text-opacity));
+}
+
+.text-customLogoOrange {
+  --tw-text-opacity: 1;
+  color: rgb(253 89 72 / var(--tw-text-opacity));
 }
 
 .text-customOrange {

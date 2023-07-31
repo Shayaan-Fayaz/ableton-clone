@@ -11,7 +11,8 @@ module.exports = {
         customPurple: '#D5B3FF',
         customLightPurple : '#B1C5FF',
         customGray: '#efefef',
-        customFormColor: "#eee"
+        customFormColor: "#eee",
+        customLogoOrange: '#FD5948'
       },
       spacing: {
         '193': '193px',
@@ -49,7 +50,14 @@ module.exports = {
         '1.5em': '1.5em',
         '0.4em': '0.4em',
         '0.75em': '0.75em',
-        '1.25': '1.25rem'
+        '1.25': '1.25rem',
+        '20vw': '20vw',
+        '430': '430px',
+        '104': '104px',
+        'thirty': '30vw',
+        '200px':'200px',
+        '450px': '450px',
+        '2.5':'2.5rem'
       },
       lineHeight: {
         '1.4':'1.4',
@@ -61,7 +69,9 @@ module.exports = {
         '16': '16px',
         '1.25':'1.25rem',
         '1.875': '1.875rem',
-        '0.875': '0.875rem'
+        '0.875': '0.875rem',
+        'hundred': '100px',
+        '140px': '140px'
       },
       fontWeight: {
         '700': '700',
