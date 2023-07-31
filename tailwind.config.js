@@ -57,7 +57,8 @@ module.exports = {
         'thirty': '30vw',
         '200px':'200px',
         '450px': '450px',
-        '2.5':'2.5rem'
+        '2.5':'2.5rem',
+        '0.625':'0.625rem'
       },
       lineHeight: {
         '1.4':'1.4',
